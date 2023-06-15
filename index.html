@@ -47,7 +47,7 @@
 				
 					<div class="nav-links" style=" padding-top: 0px; top: 65px;">
 							<a href="https://imdanielaustin.com">HOME</a>
-              				<a href="https://blog.imdanielaustin.com">BLOG</a>
+              <a href="https://blog.imdanielaustin.com">BLOG</a>
 							<a href="https://donate.imdanielaustin.com/b/4gw8zdgrQ0Pi9tS001">DONATE</a>
 							<a href="https://shop.imdanielaustin.com">STORE</a>
 							<a href="https://info.imdanielaustin.com">ABOUT ME</a>
@@ -56,83 +56,134 @@
                     
 </nav>
 <!-- Main -->
-	<div id="wrapper">
-
 					<div id="main">
-					
-						<div class="inner">
-						
+						<div class="inner">						
 							<header>
 							
 								<pre>Instructions for Services: First make your appropriate appointment date and time to ensure your desired time is available. Appointments and Services are rendered after deposit is collected and I look forward to speaking with you! Thank you.</pre>
 
 							</header>
 							
-<!-- Articles/Projects -->						
+<!-- Articles/Projects -->
 <article>
-								<div class="tiles" href="https://donate.imdanielaustin.com/b/aEU9DhcbAgOgcG4146">
-									</a>
-									<a href="https://donate.imdanielaustin.com/b/aEU9DhcbAgOgcG4146"><h1>Intro to Crypto Consultation and Class</h1>
-									</a>
-</div>
-								</article>
+<h1>Intro to Crypto Consultation and Class</h1>
+<a href="https://donate.imdanielaustin.com/b/aEU9DhcbAgOgcG4146" target="_blank" ><button type="submit">Book Consultation Here</button></a>
+<a href="https://donate.imdanielaustin.com/b/aEU9DhcbAgOgcG4146" target="_blank" ><button type="submit">Complete Your Deposit Here</button></a>
 
-								<article>
-								<div class="tiles" href="https://donate.imdanielaustin.com/b/4gw8zdgrQ0Pi9tS001">
-									</a>
-									<a href="https://donate.imdanielaustin.com/b/4gw8zdgrQ0Pi9tS001"><h1>Education and Research Donation Portal</h1>
-									</a>
-</div>
-								</article>	
-							
-								<article>
-								<div class="tiles" href="https://store.imdanielaustin.com/b/00gdTOfGI6x3c5G5km">
-									</a>
-									<a href="https://store.imdanielaustin.com/b/00gdTOfGI6x3c5G5km"><h2>Deposit and Booking for Brand Design Consultation (Retail)</h2>
-									</a>
-</div>
-								</article>
-
-								<article>
-								<div class="tiles" href="https://store.imdanielaustin.com/b/aEUdTO1PSbRn7PqdQR">
-									</a>
-									<a href="https://store.imdanielaustin.com/b/aEUdTO1PSbRn7PqdQR"><h2>Deposit and Booking for Brand Design Consultation (Commercial)</h2>
-									</a>
-</div>
-								</article>
+</article>
 
 <article>
-								<div class="tiles" href="https://store.imdanielaustin.com/b/dR68zueCEdZv5HibIL">
-									</a>
-									<a href="https://store.imdanielaustin.com/b/dR68zueCEdZv5HibIL"><h2>Deposit and Booking for Web Design Consultation (Retail)</h2>
-									</a>
+<h1>Education and Research Donation Portal</h1>
+<a href="https://donate.imdanielaustin.com/b/4gw8zdgrQ0Pi9tS001" target="_blank" ><button type="submit">Make A Donation Here</button></a>
+<div>
+  <div><div style="
+  overflow: auto;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 259px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: -2px 10px 5px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  font-family: IBM Plex Mono, SQ Market, Helvetica, Arial, sans-serif;
+  ">
+  <div style="padding: 20px;">
+    <a target="_blank" data-url="https://square.link/u/gutjWSo3?src=embd" href="https://square.link/u/gutjWSo3?src=embed" style="
+    display: inline-block;
+    font-size: 18px;
+    line-height: 48px;
+    height: 48px;
+    color: #ffffff;
+    min-width: 212px;
+    background-color: #1e1e1e;
+    text-align: center;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
+    border-radius: 50px;
+  ">Donate</a>
+  </div>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Helvetica">
 </div>
-								</article>
+</div>
+
+  <script>
+    function showCheckoutWindow(e) {
+      e.preventDefault();
+
+      const url = document.getElementById('embedded-checkout-modal-checkout-button').getAttribute('data-url');
+      const title = 'Square Online Checkout';
+
+      // Some platforms embed in an iframe, so we want to top window to calculate sizes correctly
+      const topWindow = window.top ? window.top : window;
+
+      // Fixes dual-screen position                                Most browsers          Firefox
+      const dualScreenLeft = topWindow.screenLeft !==  undefined ? topWindow.screenLeft : topWindow.screenX;
+      const dualScreenTop = topWindow.screenTop !==  undefined   ? topWindow.screenTop  : topWindow.screenY;
+
+      const width = topWindow.innerWidth ? topWindow.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+      const height = topWindow.innerHeight ? topWindow.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+
+      const h = height * .75;
+      const w = 500;
+
+      const systemZoom = width / topWindow.screen.availWidth;
+      const left = (width - w) / 2 / systemZoom + dualScreenLeft;
+      const top = (height - h) / 2 / systemZoom + dualScreenTop;
+      const newWindow = window.open(url, title, `scrollbars=yes, width=${w / systemZoom}, height=${h / systemZoom}, top=${top}, left=${left}`);
+
+      if (window.focus) newWindow.focus();
+    }
+
+    // This overrides the default checkout button click handler to show the embed modal
+    // instead of opening a new tab with the given link url
+    document.getElementById('embedded-checkout-modal-checkout-button').addEventListener('click', function (e) {
+      showCheckoutWindow(e);
+    });
+  </script>
+</div>
+</article>
 
 <article>
-								<div class="tiles" href="https://store.imdanielaustin.com/b/dR67vqgKMbRn8Tu004">
-									</a>
-									<a href="https://store.imdanielaustin.com/b/dR67vqgKMbRn8Tu004"><h2>Deposit and Booking for Web Design Consultation (Commercial)</h2>
-									</a>
-</div>
-								</article>
+<h1>Brand Design Consultation (Retail)</h1>
+<a href="https://store.imdanielaustin.com/b/00gdTOfGI6x3c5G5km" target="_blank" ><button type="submit">Book Consultation Here</button></a>
+<a href="https://store.imdanielaustin.com/b/00gdTOfGI6x3c5G5km" target="_blank" ><button type="submit">Complete Your Deposit Here</button></a>
+</article>
 
-								<article>
-								<div class="tiles" href="https://store.imdanielaustin.com/b/7sIbLG6682gN1r23cc">
-									</a>
-									<a href="https://store.imdanielaustin.com/b/7sIbLG6682gN1r23cc"><h2>Photography Frames for Purchase</h2>
-									</a>
-  <div>
-								</article>
-							
-								
+<article>
+<h1>Brand Design Consultation (Commercial)</h1>
+<a href="https://store.imdanielaustin.com/b/aEUdTO1PSbRn7PqdQR" target="_blank" ><button type="submit">Book Consultation Here</button></a>
+<a href="https://store.imdanielaustin.com/b/aEUdTO1PSbRn7PqdQR" target="_blank" ><button type="submit">Complete Your Deposit Here</button></a>
+</article>
+
+<article>
+<h1>Web Design Consultation (Retail)</h1>
+<a href="https://store.imdanielaustin.com/b/dR68zueCEdZv5HibIL" target="_blank" ><button type="submit">Book Consultation Here</button></a>
+<a href="https://store.imdanielaustin.com/b/dR68zueCEdZv5HibIL" target="_blank" ><button type="submit">Complete Your Deposit Here</button></a>
+</article>
+
+<article>
+<h1>Web Design Consultation (Commercial)</h1>
+<a href="https://store.imdanielaustin.com/b/dR67vqgKMbRn8Tu004" target="_blank" ><button type="submit">Book Consultation Here</button></a>
+<a href="https://store.imdanielaustin.com/b/dR67vqgKMbRn8Tu004" target="_blank" ><button type="submit">Complete Your Deposit Here</button></a>
+</article>
+
+<article>
+<h1>Logo Design (a la carte)</h1>
+<a href="https://donate.imdanielaustin.com/b/aEU9DhcbAgOgcG4146" target="_blank" ><button type="submit">Purchase Logo Here</button></a>
+</article>
+
+<article>
+<h1>24" x 36" Photo Posters Portal</h1>
+<a href="https://store.imdanielaustin.com/b/7sIbLG6682gN1r23cc" target="_blank" ><button type="submit">Purchase Poster(s) Here</button></a>
+</article>
+														
 <!-- Footer -->
 											 
 	<div class="inner">
 			  
 	<footer id="footer">
 
-						
 <!-- Social -->
 	
 							<section>
