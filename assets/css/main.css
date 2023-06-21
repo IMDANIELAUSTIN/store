@@ -14,13 +14,16 @@
     }
 
 .nav-content {
+    position: sticky;
     max-width: 1024px;
     margin: 0 auto;
     padding: 8px;
     display: flex;
     justify-content: space-between;
+  
 }
 .nav-content a {
+    position: sticky;
     display: block;
     font-size: 16pt;
     font-weight: bold;
@@ -35,6 +38,7 @@
 }
 
 .nav-links {
+    z-index: 1;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -249,17 +253,18 @@ a:active, a:hover {
 
 img {
     color: transparent;
+    display: inline-flex;
     cursor: pointer;
-    margin: 8;
+    margin: 16;
     border-radius: 16px;
-    align-content: middle;
+    align-content: ceneter;
     text-align: center;
-    position: relative;
+    position: inherit;
 }
 
 .cover {
   object-fit: cover;
-  max-height: auto%;
+  max-height: auto;
   min-width: 325;
   max-width: 975;
 
@@ -585,7 +590,7 @@ img {
     cursor: pointer;
     margin: 8;
     border-radius: 16px;
-    align-content: middle;
+    align-content: center;
     text-align: center;
     position: relative;
 }
@@ -917,7 +922,7 @@ img {
     cursor: pointer;
     margin: 8;
     border-radius: 16px;
-    align-content: middle;
+    align-content: center;
     text-align: center;
     position: relative;
 }
@@ -1250,7 +1255,7 @@ img {
     cursor: pointer;
     margin: 8;
     border-radius: 16px;
-    align-content: middle;
+    align-content: center;
     text-align: center;
     position: relative;
 }
@@ -1578,11 +1583,14 @@ a:active, a:hover {
 }
 
 img {
+    max-width: 100%;
+    height: auto;
     color: transparent;
+    display: block;
     cursor: pointer;
-    margin: 8;
+    margin: auto;
     border-radius: 16px;
-    align-content: middle;
+    align-content: center;
     text-align: center;
     position: relative;
 }
