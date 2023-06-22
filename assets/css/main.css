@@ -14,7 +14,7 @@
     }
 
 .nav-content {
-    position: unset;
+    position: static;
     max-width: 1024px;
     margin: 0 auto;
     padding: 8px;
@@ -316,7 +316,7 @@ div .copyright{
 
 @media (max-width: 980px) {
    .show {
-        background-color: #1e1e1e;
+        background-color: transparent;
     }
 
 .bar {
@@ -337,6 +337,8 @@ div .copyright{
 .logo {
     position: block;
     margin: 2px auto;
+    display: flex;
+
     }
     
 h1 , h2 , ul, ol, li, head, heading, mono {
@@ -366,7 +368,7 @@ pre {
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
     .nav-links {
-        position: static;
+        position: sticky;
         top: 44px;
         right: 0;
         height: 0;
@@ -413,11 +415,6 @@ background-color 0.3s;
     
     .nav-icon {
         order: 1;
-        display: grid;
-    }
-    
-    .logo {
-        order: 3;
         display: grid;
     }
     
@@ -1612,7 +1609,7 @@ img {
     max-width: 100%;
     height: auto;
     color: transparent;
-    display: block;
+    display: static;
     cursor: pointer;
     margin: auto;
     border-radius: 16px;
