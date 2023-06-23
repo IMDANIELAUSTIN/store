@@ -7,7 +7,52 @@
     background: #1e1e1e;
     }
 
+body{
+  font-family: sans-serif;
+  font-size: 16px;
+}
 
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 1rem;
+  margin: 2em;
+  .product{
+    display: flex;
+    flex-flow: column;
+    border: 1px solid #eee;
+    padding: 1em;
+    &:hover{
+      border: 1px solid #fff;
+      box-shadow: 0 5px 40px rgba(0,0,0,.3);
+    }
+    img{
+      width: 100%;
+      overflow: hidden;
+    }
+    .product-name{
+      margin: 1em 0;
+      font-size: 1.1rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .btn-buy{
+      cursor: pointer;
+      margin-top: auto;
+      // display: block;
+      // align-self: flex-end;
+      font-size: 1rem;
+      padding: .8rem 1.5rem;
+      border: 1px solid $color-cta;
+      background-color: #ff0000;
+      color: #fff;
+      &:hover{
+        background-color: #fff;
+        color: #ff0000;
+      }
+    }
+  }
+}
 .logo {
     position: block;
     margin: 2px auto;
