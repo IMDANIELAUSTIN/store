@@ -17,7 +17,7 @@ body{
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   grid-gap: 1rem;
   margin: 2em;
-  .product{
+  .product {
     display: flex;
     flex-flow: column;
     border: 1px solid #eee;
@@ -26,6 +26,7 @@ body{
       border: 1px solid #fff;
       box-shadow: 0 5px 40px rgba(0,0,0,.3);
     }
+
     img{
       width: 100%;
       overflow: hidden;
